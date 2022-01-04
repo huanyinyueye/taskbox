@@ -1,4 +1,9 @@
-import { componentWrapperDecorator, moduleMetadata, Meta, Story } from '@storybook/angular';
+import {
+  componentWrapperDecorator,
+  moduleMetadata,
+  Meta,
+  Story,
+} from '@storybook/angular';
 
 import { CommonModule } from '@angular/common';
 
@@ -16,12 +21,14 @@ export default {
       imports: [CommonModule],
     }),
     //👇 Wraps our stories with a decorator
-    componentWrapperDecorator(story => `<div style="margin: 3em">${story}</div>`),
+    componentWrapperDecorator(
+      (story) => `<div style="margin: 3em">${story}</div>`
+    ),
   ],
   title: 'PureTaskList',
 } as Meta;
 
-const Template: Story = args => ({
+const Template: Story = (args) => ({
   props: {
     ...args,
     onPinTask: TaskStories.actionsData.onPinTask,
