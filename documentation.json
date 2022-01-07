@@ -768,54 +768,7 @@
         },
         {
             "name": "InboxScreenComponent",
-            "id": "component-InboxScreenComponent-1fe2cf620ca085b8a85675554ddfd6a3ee9bc8c707fc497c6f18e59ea708af6029873e257af5f0aebebbcebe434169be0a4285e6c843c3ebe0f8240a632c369e",
-            "file": "src/app/components/inbox-screen.compontnt.ts",
-            "encapsulation": [],
-            "entryComponents": [],
-            "inputs": [],
-            "outputs": [],
-            "providers": [],
-            "selector": "app-inbox-screen",
-            "styleUrls": [],
-            "styles": [],
-            "template": "<app-pure-inbox-screen [error]=\"error$ | async\"></app-pure-inbox-screen>\n",
-            "templateUrl": [],
-            "viewProviders": [],
-            "inputsClass": [],
-            "outputsClass": [],
-            "propertiesClass": [
-                {
-                    "name": "error$",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Observable<any>",
-                    "optional": false,
-                    "description": "",
-                    "line": 13,
-                    "decorators": [
-                        {
-                            "name": "Select",
-                            "stringifiedArguments": "TasksState.getError"
-                        }
-                    ]
-                }
-            ],
-            "methodsClass": [],
-            "deprecated": false,
-            "deprecationMessage": "",
-            "hostBindings": [],
-            "hostListeners": [],
-            "description": "",
-            "rawdescription": "\n",
-            "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\r\nimport { Select } from '@ngxs/store';\r\nimport { TasksState } from '../state/task.state';\r\nimport { Observable } from 'rxjs';\r\n\r\n@Component({\r\n  selector: 'app-inbox-screen',\r\n  template: `\r\n    <app-pure-inbox-screen [error]=\"error$ | async\"></app-pure-inbox-screen>\r\n  `,\r\n})\r\nexport class InboxScreenComponent {\r\n  @Select(TasksState.getError) error$: Observable<any>;\r\n}",
-            "assetsDirs": [],
-            "styleUrlsData": "",
-            "stylesData": ""
-        },
-        {
-            "name": "InboxScreenComponent",
-            "id": "component-InboxScreenComponent-ea1821d439ccc1fd42a44a6e52952e391fdb4f9366676e00342fb6c2c7e25249c90efe77600ca607727230d8fdce3c829bdb7c8ae9d859819a4c35f7f3efb296-1",
+            "id": "component-InboxScreenComponent-ea1821d439ccc1fd42a44a6e52952e391fdb4f9366676e00342fb6c2c7e25249c90efe77600ca607727230d8fdce3c829bdb7c8ae9d859819a4c35f7f3efb296",
             "file": "src/app/components/inbox-screen.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -856,6 +809,53 @@
             "rawdescription": "\n",
             "type": "component",
             "sourceCode": "import { Component } from '@angular/core';\r\nimport { Select } from '@ngxs/store';\r\nimport { TasksState } from '../state/task.state';\r\nimport { Observable } from 'rxjs';\r\n\r\n@Component({\r\n  selector: 'app-inbox-screen',\r\n  template: `\r\n    <app-pure-inbox-screen [error]=\"error$ | async\"></app-pure-inbox-screen>\r\n  `,\r\n})\r\nexport class InboxScreenComponent {\r\n  @Select(TasksState.getError) error$: Observable<any>;\r\n}\r\n",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": ""
+        },
+        {
+            "name": "InboxScreenComponent",
+            "id": "component-InboxScreenComponent-1fe2cf620ca085b8a85675554ddfd6a3ee9bc8c707fc497c6f18e59ea708af6029873e257af5f0aebebbcebe434169be0a4285e6c843c3ebe0f8240a632c369e-1",
+            "file": "src/app/components/inbox-screen.compontnt.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-inbox-screen",
+            "styleUrls": [],
+            "styles": [],
+            "template": "<app-pure-inbox-screen [error]=\"error$ | async\"></app-pure-inbox-screen>\n",
+            "templateUrl": [],
+            "viewProviders": [],
+            "inputsClass": [],
+            "outputsClass": [],
+            "propertiesClass": [
+                {
+                    "name": "error$",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Observable<any>",
+                    "optional": false,
+                    "description": "",
+                    "line": 13,
+                    "decorators": [
+                        {
+                            "name": "Select",
+                            "stringifiedArguments": "TasksState.getError"
+                        }
+                    ]
+                }
+            ],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component } from '@angular/core';\r\nimport { Select } from '@ngxs/store';\r\nimport { TasksState } from '../state/task.state';\r\nimport { Observable } from 'rxjs';\r\n\r\n@Component({\r\n  selector: 'app-inbox-screen',\r\n  template: `\r\n    <app-pure-inbox-screen [error]=\"error$ | async\"></app-pure-inbox-screen>\r\n  `,\r\n})\r\nexport class InboxScreenComponent {\r\n  @Select(TasksState.getError) error$: Observable<any>;\r\n}",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -938,47 +938,7 @@
         },
         {
             "name": "PureInboxScreenComponent",
-            "id": "component-PureInboxScreenComponent-d3793fdf1366157df5698fa4fa6079c85285687f4af55019ec4461abe9b7e62c5b5be7b3e12b98b0839260459c5a0a3d7eb46b0c8d813833c4396c9020765014",
-            "file": "src/app/components/pure-inbox-screen.components.ts",
-            "encapsulation": [],
-            "entryComponents": [],
-            "inputs": [],
-            "outputs": [],
-            "providers": [],
-            "selector": "app-pure-inbox-screen",
-            "styleUrls": [],
-            "styles": [],
-            "template": "<div *ngIf=\"error\" class=\"page lists-show\">\n  <div class=\"wrapper-message\">\n    <span class=\"icon-face-sad\"></span>\n    <div class=\"title-message\">Oh no!</div>\n    <div class=\"subtitle-message\">Something went wrong</div>\n  </div>\n</div>\n\n<div *ngIf=\"!error\" class=\"page lists-show\">\n  <nav>\n    <h1 class=\"title-page\">\n      <span class=\"title-wrapper\">Taskbox</span>\n    </h1>\n  </nav>\n  <app-task-list></app-task-list>\n</div>\n",
-            "templateUrl": [],
-            "viewProviders": [],
-            "inputsClass": [
-                {
-                    "name": "error",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "line": 25,
-                    "type": "any",
-                    "decorators": []
-                }
-            ],
-            "outputsClass": [],
-            "propertiesClass": [],
-            "methodsClass": [],
-            "deprecated": false,
-            "deprecationMessage": "",
-            "hostBindings": [],
-            "hostListeners": [],
-            "description": "",
-            "rawdescription": "\n",
-            "type": "component",
-            "sourceCode": "import { Component, Input } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-pure-inbox-screen',\r\n  template: `\r\n    <div *ngIf=\"error\" class=\"page lists-show\">\r\n      <div class=\"wrapper-message\">\r\n        <span class=\"icon-face-sad\"></span>\r\n        <div class=\"title-message\">Oh no!</div>\r\n        <div class=\"subtitle-message\">Something went wrong</div>\r\n      </div>\r\n    </div>\r\n\r\n    <div *ngIf=\"!error\" class=\"page lists-show\">\r\n      <nav>\r\n        <h1 class=\"title-page\">\r\n          <span class=\"title-wrapper\">Taskbox</span>\r\n        </h1>\r\n      </nav>\r\n      <app-task-list></app-task-list>\r\n    </div>\r\n  `,\r\n})\r\nexport class PureInboxScreenComponent {\r\n  @Input() error: any;\r\n}",
-            "assetsDirs": [],
-            "styleUrlsData": "",
-            "stylesData": ""
-        },
-        {
-            "name": "PureInboxScreenComponent",
-            "id": "component-PureInboxScreenComponent-6e849e59ea4c0d8aceccd469b6fbf576c11336dd6e48aaf14d5e395a1191b7388c0dbbaef568567fa9c3b17ea2719dccd7d4cad2acc2c405fb7cb3b32486b9c6-1",
+            "id": "component-PureInboxScreenComponent-6e849e59ea4c0d8aceccd469b6fbf576c11336dd6e48aaf14d5e395a1191b7388c0dbbaef568567fa9c3b17ea2719dccd7d4cad2acc2c405fb7cb3b32486b9c6",
             "file": "src/app/components/pure-inbox-screen.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -1012,6 +972,46 @@
             "rawdescription": "\n",
             "type": "component",
             "sourceCode": "import { Component, Input } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-pure-inbox-screen',\r\n  template: `\r\n    <div *ngIf=\"error\" class=\"page lists-show\">\r\n      <div class=\"wrapper-message\">\r\n        <span class=\"icon-face-sad\"></span>\r\n        <div class=\"title-message\">Oh no!</div>\r\n        <div class=\"subtitle-message\">Something went wrong</div>\r\n      </div>\r\n    </div>\r\n\r\n    <div *ngIf=\"!error\" class=\"page lists-show\">\r\n      <nav>\r\n        <h1 class=\"title-page\">\r\n          <span class=\"title-wrapper\">Taskbox</span>\r\n        </h1>\r\n      </nav>\r\n      <app-task-list></app-task-list>\r\n    </div>\r\n  `,\r\n})\r\nexport class PureInboxScreenComponent {\r\n  @Input() error: any;\r\n}\r\n",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": ""
+        },
+        {
+            "name": "PureInboxScreenComponent",
+            "id": "component-PureInboxScreenComponent-d3793fdf1366157df5698fa4fa6079c85285687f4af55019ec4461abe9b7e62c5b5be7b3e12b98b0839260459c5a0a3d7eb46b0c8d813833c4396c9020765014-1",
+            "file": "src/app/components/pure-inbox-screen.components.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-pure-inbox-screen",
+            "styleUrls": [],
+            "styles": [],
+            "template": "<div *ngIf=\"error\" class=\"page lists-show\">\n  <div class=\"wrapper-message\">\n    <span class=\"icon-face-sad\"></span>\n    <div class=\"title-message\">Oh no!</div>\n    <div class=\"subtitle-message\">Something went wrong</div>\n  </div>\n</div>\n\n<div *ngIf=\"!error\" class=\"page lists-show\">\n  <nav>\n    <h1 class=\"title-page\">\n      <span class=\"title-wrapper\">Taskbox</span>\n    </h1>\n  </nav>\n  <app-task-list></app-task-list>\n</div>\n",
+            "templateUrl": [],
+            "viewProviders": [],
+            "inputsClass": [
+                {
+                    "name": "error",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 25,
+                    "type": "any",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, Input } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-pure-inbox-screen',\r\n  template: `\r\n    <div *ngIf=\"error\" class=\"page lists-show\">\r\n      <div class=\"wrapper-message\">\r\n        <span class=\"icon-face-sad\"></span>\r\n        <div class=\"title-message\">Oh no!</div>\r\n        <div class=\"subtitle-message\">Something went wrong</div>\r\n      </div>\r\n    </div>\r\n\r\n    <div *ngIf=\"!error\" class=\"page lists-show\">\r\n      <nav>\r\n        <h1 class=\"title-page\">\r\n          <span class=\"title-wrapper\">Taskbox</span>\r\n        </h1>\r\n      </nav>\r\n      <app-task-list></app-task-list>\r\n    </div>\r\n  `,\r\n})\r\nexport class PureInboxScreenComponent {\r\n  @Input() error: any;\r\n}",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -1420,6 +1420,12 @@
                     "elements": [
                         {
                             "name": "AppComponent"
+                        },
+                        {
+                            "name": "InboxScreenComponent"
+                        },
+                        {
+                            "name": "PureInboxScreenComponent"
                         }
                     ]
                 },
@@ -1599,21 +1605,21 @@
                 "name": "environment",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/environments/environment.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "object",
-                "defaultValue": "{\r\n  production: false,\r\n}"
-            },
-            {
-                "name": "environment",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/environments/environment.prod.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "object",
                 "defaultValue": "{\r\n  production: true,\r\n}"
+            },
+            {
+                "name": "environment",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/environments/environment.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "object",
+                "defaultValue": "{\r\n  production: false,\r\n}"
             },
             {
                 "name": "Error",
@@ -1998,18 +2004,6 @@
                     "defaultValue": "Template.bind({})"
                 }
             ],
-            "src/environments/environment.ts": [
-                {
-                    "name": "environment",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/environments/environment.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "object",
-                    "defaultValue": "{\r\n  production: false,\r\n}"
-                }
-            ],
             "src/environments/environment.prod.ts": [
                 {
                     "name": "environment",
@@ -2020,6 +2014,18 @@
                     "deprecationMessage": "",
                     "type": "object",
                     "defaultValue": "{\r\n  production: true,\r\n}"
+                }
+            ],
+            "src/environments/environment.ts": [
+                {
+                    "name": "environment",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/environments/environment.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "object",
+                    "defaultValue": "{\r\n  production: false,\r\n}"
                 }
             ],
             "src/stories/Button.stories.ts": [
